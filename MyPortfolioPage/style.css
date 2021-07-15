@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ .nav-fill {
+    border-bottom: 5px solid turquoise;
+    text-decoration: none;
+} 
+
+
+
+.nav-item:hover {
+    background-color: blue;
+}
+
+body {
+    background-color: black;
+}
+.container-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 50px;
+    border-bottom: red solid 10px;
+    align-items: flex-end;
+    background-color: turquoise;
+}
+
+.container-header,
+ a {
+    color: purple;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+h1 {
+    color: maroon;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+nav li {
+   text-decoration: none;
+   display: inline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.container-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.item {
+    flex: 4;
+    margin-left: 20px;
+    align-items: center;
+    padding: 40px;
+}
+
+.item1 {
+    flex: 1;
+    border-right: 5px solid black;
+}
+
+h2 {
+    display: inline;
+    color: purple;
+}
+
+p {
+    font-size: 24px;
+    color: purple;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    font-weight: bold;
+}
+
+img {
+    display: inline;
+    width: 100%
+}
+
+.item2 {
+    flex: 1;
+}
+
+.greenery {
+    flex: 3;
+    height: 200px;
+    width: 300px;
+}
+
+.waterfall {
+    flex: 1;
+    height: 200px;
+    width: 300px;
+}
+
+.river {
+    flex: 1;
+    height: 200px;
+    width: 300px;
+}
+
+.rainforest {
+    flex: 1;
+    max-height: 00px;
+    width: 300px;
+}
+
+.small-river {
+    flex: 1;
+    height: 200px;
+    width: 300px;
+}
+
+.container-footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 8px solid red;
+    background-color: turquoise;
+    width: 100%;
+    position: absolute;
+}
+
+.container-footer a {
+    color: purple;
+    margin-left: 10px;
+}
