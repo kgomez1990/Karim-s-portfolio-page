@@ -8,7 +8,11 @@
     text-decoration: none;
 } 
 
-
+.card {
+    background-image: url('https://images.unsplash.com/photo-1613379293095-d81837c1502d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .nav-item:hover {
     background-color: blue;
@@ -17,6 +21,11 @@
 body {
     background-color: black;
 }
+
+.card {
+    border-right: 5px solid red;
+}
+
 .container-header {
     display: flex;
     flex-wrap: wrap;
