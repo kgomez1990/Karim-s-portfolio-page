@@ -43,8 +43,28 @@ body {
 
 .card {
     border-right: 5px solid red;
+    height: 21rem;
 }
 
 .card-title {
-    
+    color: gray;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+#header {
+    color: white;
+    margin-right: 70px;
+}
+
+.bio-summary {
+    color: white;
+    font-size: 30px;
 }
